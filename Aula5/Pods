@@ -69,3 +69,9 @@ Events:
   Normal  Pulled     76s   kubelet            spec.containers{nginx}: Successfully pulled image "nginx:alpine" in 5.533s (5.533s including waiting). Image size: 28826677 bytes.
   Normal  Created    76s   kubelet            spec.containers{nginx}: Container created
   Normal  Started    76s   kubelet            spec.containers{nginx}: Container started
+
+Passo 6 - 
+
+kubectl scale deployment web-aula5 --replicas=3
+
+deployment.apps/web-aula5 scaled
